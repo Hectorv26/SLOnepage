@@ -1,0 +1,720 @@
+
+
+<div class="contenido">    
+    <!-- Inicio  slider  -->
+      
+
+    
+
+    <div class="video-container" style="margin-right: -90px;">
+
+      <img style="width: 90%;" src="assets/videos/animados.gif" alt="Mi GIF">
+
+    <div class="texto-superpuesto subtitleMain" style=" margin-left: -100px;">
+        <span style="font-size: 60px; font-family: BebasNeueBold;" class="animate-text delay-1">¡HOLA!</span>
+
+        <p  class="texto2 animate-text delay-2">Te damos la bienvenida a SL</p>
+
+        <span class="animate-text delay-3">HACEMOS VISIBLE</span>
+
+        <p id="titulobanner" class="texto-superpuestoTituloBanner animate-text delay-5" style="margin-top: -90px; margin-left: -10px;"></p>
+
+    </div>
+
+
+    </div>
+    <!-- Fin  slider  --> 
+
+
+    <!-- Onda animada-->
+    
+    <p id="ondaGris" style="position: absolute; width: 120%; margin-left: -80px; margin-top: -138px;  background-color: black;"> </p>
+
+    <!-- Slide en Negro-->
+
+    <div class="row">
+
+      <div class="container" style="background-color: black;" >
+
+
+
+        <!-- Primera fila -->
+        <div class="row">
+
+          <!-- Este div no modificar el color-->
+            <div class="col-md-5 subtitleMain" style="background-color: transparent;">
+
+                <div class="card custom-card border-0" style="background-color: black;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->             
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-7" style="background-color: transparent;">
+
+                <div class="card custom-card border-none" style="background-color: transparent;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+                    <div class="card-body"  style="background-color: transparent;">
+
+                        <p class="consultoraH" style="font-size: 15px; text-align: left;">Estamos en una revolución de la consciencia <strong>, y nuestro propósito es humanizar la forma en que las empresas,</strong> <strong></strong> que generan valor estratégico a diferentes negocios y organizaciones en LATAM.
+                        Detectamos <strong>insights</strong> poderosos que revelan verdades ocultas e identifican tensiones, activándolas a través de los <strong>arquetipos</strong> 
+                        para crear escenarios de conexión relevante y transformar <strong>mindsets.</strong>  
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <!-- Tercera fila con columna centrada -->
+        <div class="row justify-content-center" style="margin-top: 100px; margin-bottom: 100px;">
+
+            <div class="col-md-6">
+
+              
+        
+
+            
+
+              <div class="card plan custom-card texto-superpuestocard" id="card_plan_1" style="background-color: transparent; border: none; margin-top: 38px;">
+                
+            
+
+             
+              </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="container" style="position: relative;" (click)="scrollToSection()">
+    
+            <button  class="btn custom-button3"  style="position: absolute; z-index: 15; bottom: 0; right: 0; width: 150px; height: 35px; margin-left: 3%; margin-top: 25%; font-family: TransducerRegular; padding-top: 5px;">Contáctanos</button>
+            
+        </div>
+
+
+        <br>
+
+      </div>
+
+    </div>
+
+
+    <div class="banner" #banner style="display: none;">
+      <ul class="redes-sociales">
+        
+        <li style="margin-top: -2px;"><a *ngIf="email" href="#" (mouseover)="cambiarE()"><img style="width: 40px;" src="assets/imagenes/iconos/email.svg" alt="email"></a>
+          <a *ngIf="emailColor" href="#" (mouseout)="cambiarEBlanco()"><img style="width: 40px;" src="assets/imagenes/iconos/emailColor.svg" alt="email"></a>
+        </li>
+        <li><a *ngIf="facebook" href="#" (mouseover)="cambiarF()"><img style="width: 35px;" src="assets/imagenes/iconos/facebook.svg" alt="Facebook"></a>
+          <a *ngIf="facebookColor" href="#" (mouseout)="cambiarFBlanco()"><img style="width: 35px;" src="assets/imagenes/iconos/facebookColor.svg" alt="Facebook"></a>
+        </li>
+        <li><a *ngIf="instagram" href="#" (mouseover)="cambiarI()"><img style="width: 35px;" src="assets/imagenes/iconos/instagram.svg" alt="Instagram"></a>
+          <a *ngIf="instagramColor" href="#" (mouseout)="cambiarIBlanco()"><img style="width: 35px;" src="assets/imagenes/iconos/instagramColor.svg" alt="Instagram"></a>
+        </li>
+        <li><a *ngIf="link" href="#" (mouseover)="cambiarL()"><img style="width: 35px;" src="assets/imagenes/iconos/link.svg" alt="Link"></a>
+          <a *ngIf="linkColor" href="#" (mouseout)="cambiarLBlanco()"><img style="width: 35px;" src="assets/imagenes/iconos/linkColor.svg" alt="Link"></a>
+        </li>
+        <li><a *ngIf="arquetipos" href="#" (mouseover)="cambiarA()"><img style="width: 40px;" src="assets/imagenes/iconos/arquetipos.svg" alt="Link"></a>
+          <a *ngIf="arquetiposColor" href="#" (mouseout)="cambiarABlanco()"><img style="width: 40px;" src="assets/imagenes/iconos/arquetiposColor.svg" alt="Link"></a>
+        </li>
+        <!-- Añade más iconos de redes sociales si lo deseas -->
+      </ul>
+    </div>
+ 
+
+
+    <div class="mapa-container">
+
+    
+
+        <div class="container">
+
+            <div class="row">
+   
+            <div class="col-md-12">
+
+            <img style="width: 1005px;"   src="assets/imagenes/imaFichas/Magix.svg" alt="Invisible" >
+
+            </div>
+
+
+            </div>
+            
+        </div>
+
+
+
+    <div class="texto-superpuesto2 subtitleMain">
+
+       <p id="titulomapa"></p>
+      
+    </div>
+
+    <div class="texto-superpuesto3">
+
+      
+      
+    </div>
+
+    <!-- boton Mago-->
+
+    <div class="container" style="position: relative;" (click)="scrollToSection()">
+    
+      <button  class="btn custom-button10"  style="position: absolute; z-index: 14; bottom: 0; right: 0; width: 150px; height: 35px; margin-left: 6%; margin-top: 20%; font-family: TransducerRegular; padding-top: 5px;">Hablemos</button>
+      
+    </div>  
+
+
+    </div>
+
+    <div class="row">
+
+    <div class="container" >
+
+
+          <!-- Primera fila -->
+        <div class="row">
+            <div class="col-md-12 " style="background-color: transparent; text-transform: none;">
+                <div class="card custom-card border-0" style="background-color: transparent; text-align: center;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+                  
+        
+                  <strong><p class="consultora" style="line-height: 1; font-family: BebasNeueBold; "><span style="margin-left: -35px; color: black;">SOMOS</span></p>
+                  </strong>
+                  
+  
+                </div>
+
+              
+            </div>
+
+              <!-- Aca va el titulo Somos-->
+            <p id="lineaTexto" style="position: absolute; width: 26%; margin-left: 400px; margin-top: -6.8%; display: block;"> </p>
+
+            
+        </div>
+
+
+        <!-- Segunda fila -->
+           <div class="row" style="margin-top: -60px;">
+            <div class="col-md-4">
+                <div class="card plan custom-card cartas text-center" style="padding: auto;" id="card_plan_1">
+                
+                  
+                  <span style="width: 120px; margin-top: -5px; margin-right: 60px;" class="logo" id="creativos" alt="Logotipo"></span>
+
+                  <!-- Tamaño de card va en el padding-->
+                    <div class="card-body plan-card-body" style=" padding-top: 210px;">
+                    
+                      <span class="miparrafo">Innovación, modelos </span> <br> y metodologíaaas 
+                      
+                    </div>
+
+                    
+                 
+                </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card plan custom-card cartas text-center" style="padding: auto;" id="card_plan_1">
+                
+                  
+                <span style="width: 120px; margin-top: 5px; margin-right: 60px;" class="logo" id="reloj" alt="Logotipo"></span>
+
+                  <div class="card-body plan-card-body" style=" padding-top: 210px;">
+                  
+                    <span class="miparrafo">Agilidad </span> y <br> flexibilidad 
+                    
+                  </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card plan custom-card cartas text-center" style="padding: auto;" id="card_plan_1">
+                
+                  
+                <span style="width: 120px; margin-top: 5px; margin-right: 60px;" class="logo" id="posit" alt="Logotipo"></span>
+
+                  <div class="card-body plan-card-body" style=" padding-top: 210px;">
+                  
+                    <span class="miparrafo">Co-creación</span> y <br>colaboración 
+                    
+                  </div>
+
+              </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- Tercera fila -->
+        <div class="row justify-content-center" style="margin-top: -10px; ">
+
+          <br>
+          <div class="col-md-4">
+              <div class="card plan custom-card cartas text-center" style="padding: auto;" id="card_plan_1">
+                <span style="width: 120px; margin-top: -5px; margin-right: 60px;" class="logo" id="robot" alt="Logotipo"></span>
+                  <div class="card-body plan-card-body" style=" padding-top: 210px;"> 
+
+                    <span class="miparrafo">Innovación, modelos </span> <br> y metodologías 
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card plan custom-card cartas text-center" style="padding: auto;" id="card_plan_1">  
+              <span style="width: 120px; margin-top: 5px; margin-right: 60px;" class="logo" id="reloj" alt="Logotipo"></span>
+                <div class="card-body plan-card-body" style=" padding-top: 210px; ">
+                
+                  <span class="miparrafo">Este es el ultimo </span> y <br> flexibilidad 
+                  
+                </div>
+            </div>
+          </div>
+
+        
+      </div>
+
+
+
+    
+
+    </div>
+
+  </div>
+    
+ 
+
+    <div class="row" style="background-color: black;">
+
+     <div class="container"> <strong><p class="text-center" style="color: white; margin-top: 5px; font-family: BebasNeueBold;font-size: 25px;">  NUESTROS  <span style="font-size: 40px;">ALIADOS</span></p></strong></div>
+
+     <p id="lineaTexto5" class="texto-superpuestoAliados"> </p>
+
+    </div>
+
+    
+
+
+
+    <div class="row" style="background-color: black;">
+
+
+      <div class="col-md-1"></div>
+
+        <div class="col-md-10">
+            <div id="logoCarousel" class="carousel slide" data-ride="carousel" style="background-color: black; margin-left: -10px; margin-bottom: 20px;" >
+                <div class="carousel-inner">
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <!-- Logo 1 -->
+                      <div class="col-md-3">
+                        <img src="assets/imagenes/iconos/cocacola.png" style="width: 100px;" class="d-block mx-auto" alt="Logo 11">
+                      </div>
+                      <!-- Logo 2 -->
+                      <div class="col-md-3">
+                        <img src="assets/imagenes/iconos/belcorp.png"  class="d-block mx-auto" alt="Logo 2">
+                      </div>
+                      <!-- Logo 3 -->
+                      <div class="col-md-3">
+                        <img src="assets/imagenes/iconos/abinbev.png" class="d-block mx-auto" style="height: 20px; margin-top: 20px; width: 110px;" alt="Logo 3">
+                      </div>
+                      <!-- Logo 4 -->
+                      <div class="col-md-3">
+                        <img src="assets/imagenes/iconos/totalmenteconfiable.png" style="width: 70px; height: 60px;" class="d-block mx-auto" alt="Logo 4">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/colombina.png" style="width: 115px; height: 50px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/pepsico.png" style="width: 125px; height: 30px;" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/scotiabank.png" style="width: 165px; height: 25px; margin-top: 10px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/colpensiones.png" style="width: 132px; height: 40px; margin-bottom: 20px;" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/unilever.png" style="width: 55px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/postobon.png" style="width: 100px; height: 40px" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/kellogs.png" style="width: 120px; height: 45px; margin-top: 5px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/diageo.png" style="width: 100px; height: 23px;margin-top: 14px;" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/derco.png" style="width: 50px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/trece.png" style="width: 100px; height: 35px;" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/afidro.png" style="width: 160px; height: 25px; margin-top: 10px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/colsubsidio.png" style="width: 145px; height: 30px; margin-top: 7px;" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/cruzverde.png" style="width: 65px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/bancocajasocial.png" style="width: 170px; height: 50px;" 
+                            class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/alianzateam.png" style="width: 120px; height: 45px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/alpina.png" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/semana.png" style="height: 25px; width: 100px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/alqueria.png" style="height: 44px; width: 120px; margin-bottom: 15px;" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/colpatria.png" style="height: 25px; width: 130px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/singenta.png" style="height: 26px; width: 105px;" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/sanofi.png" style="height: 30px; width: 140px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/colgate.png" style="height: 60px; width: 85px;" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/groupon.png" style="height: 30px; width: 150px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                          <!-- Logo 4 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/bristol.png" style="height: 60px; width: 130px;" class="d-block mx-auto" alt="Logo 4">
+                          </div>
+                        </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <!-- Logo 1 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/dupont.png" style="height: 30px; width: 100px;" class="d-block mx-auto" alt="Logo 11">
+                          </div>
+                          <!-- Logo 2 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/novo.png" style="height: 60px; width: 90px;" class="d-block mx-auto" alt="Logo 2">
+                          </div>
+                          <!-- Logo 3 -->
+                          <div class="col-md-3">
+                            <img src="assets/imagenes/iconos/danone.png" style="height: 30px; width: 100px;" class="d-block mx-auto" alt="Logo 3">
+                          </div>
+                         
+                        </div>
+                  </div>
+                  <!-- Agrega más slides según sea necesario -->
+                  
+                </div>
+
+                         <!-- Controles del carrusel -->
+                         <a  class="carousel-control-prev" style="margin-left: -60px;" href="#logoCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a  class="carousel-control-next" style="margin-right: -60px;" href="#logoCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Siguiente</span>
+                        </a>
+          
+             
+              </div>
+
+              
+        </div>
+
+        <div class="col-md-1"></div>
+
+    </div>
+     
+
+
+
+    <div class="row">
+
+      <div class="container"> <strong><p class="text-center" style="color: black; margin-top: 30px; margin-bottom: -10px; font-family: BebasNeueBold;font-size: 30px; line-height: 1">EXPERIENCIAS DE<br><span class="miparrafo" style="font-size: 40px; margin-left: 120px;">NUESTROS ALIADOS</span></p></strong>
+      
+        <p id="lineaTexto4" style="width: 15.5%; margin-left: 455px; margin-top: -127px; margin-bottom: -60px; display: block"> </p>
+      </div>
+ 
+      
+     </div>
+
+   
+ 
+     <div class="row">
+ 
+         <div class="col-md-12">
+             <div id="logoCarousel2" class="carousel slide" data-ride="carousel" style="background-color: transparent; margin-left: 50px;">
+                 <div class="carousel-inner">
+                   <!-- Slide 1 -->
+                   <div class="carousel-item active">
+                     <div class="row">
+                       <!-- Logo 1 -->
+                       <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar "</span>
+                          </div>
+      
+                       
+                      </div>
+                       </div>
+                       <!-- Logo 2 -->
+                       <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar " </span>
+                          </div>
+      
+                       
+                      </div>
+                       </div>
+                       <!-- Logo 3 -->
+                       <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar "</span>
+                          </div>
+      
+                       
+                      </div>
+                       </div>
+                  
+                     </div>
+                   </div>
+                
+                   <div class="carousel-item">
+                    <div class="row">
+                      <!-- Logo 1 -->
+                      <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar "</span>
+                          </div>
+      
+                       
+                      </div>
+                      </div>
+
+                      <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar "</span>
+                          </div>
+      
+                       
+                      </div>
+                      </div>
+
+                      <!-- Logo 2 -->
+                      <div class="col-md-4 col-sm-3">
+                        <div class="card plan custom-card cartasComentarios" id="card_plan_1">
+                          <div class="">
+                              <strong><h6 class="miparrafo" style="padding-left: 10px; padding-top: 10px;">Pepito Perez</h6></strong>
+                          </div>
+                          
+                          <div class="card-body plan-card-body" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; color: gray;">
+                              <span>" Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar "</span>
+                          </div>
+      
+                       
+                      </div>
+                      </div>
+                     
+                 
+                    </div>
+                  </div>
+                   <!-- Agrega más slides según sea necesario -->
+                 </div>
+                 
+                 <ol class="carousel-indicators">
+                  <li data-target="#logoCarousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#logoCarousel2" data-slide-to="1"></li>
+                  <!-- Agrega más indicadores según sea necesario -->
+                </ol>
+               </div>
+         </div>
+ 
+     </div>
+
+
+
+     <span id="contacts"></span>
+
+     <div  style="background-color: white;" >
+      <!-- Primera fila -->
+
+      <div class="container">
+
+        
+
+      <div class="row" style="background-color: white;" >
+          <div class="col-md-5 " style="background-color: transparent; margin-top: 90px;">
+            
+              <div class="card custom-card border-0" style="background-color: transparent;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+              
+                    <p class="btn custom-button2" style="font-family: BebasNeueBold; font-size: 25px; line-height: 1;"> <img style="width: 30px; padding-top: 5px; padding-right: 5px;" src="assets/imagenes/iconos/whatsapp.svg" alt="">¿TIENES UN RETO<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  PARA NOSOTROS? </p>
+             
+                   
+                 
+
+              </div>
+              
+              <div style="margin-left: 130px;">
+
+              <div>
+                <p style="color: gray;"><strong>Bogotá</strong> <br> <br> Cra 49B No 104-75 <br> Tel: (+57) 318 355 19 94</p>
+              </div>
+
+              <div>
+                <p style="color: gray;"><strong>Cali</strong> <br> <br> Calle 3 No 57-31 <br> Tel: (+57) 2 400 21 28</p>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-md-7">
+              <div class="card custom-card border-0" style="background-color: transparent;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+                  <div class="card-body" style="margin-top: 30px; margin-left: 190px;">
+
+                    <input type="text" class="form-control" placeholder="Nombre">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Email">
+                    <br>
+                    <textarea name="" id="" cols="30" class="form-control" placeholder="Cúentanos qué reto tienes para nosotros" rows="8"></textarea>
+                    <br>
+                    <button type="button" class="btn btn-secondary" style="background: linear-gradient(to right, #c01f56, #54337b);">Enviar</button>
+                   
+                  </div>
+
+                  
+              </div>
+
+          </div>
+      </div>
+
+  
+
+      
+
+    </div>
+      
+
+  </div>
+
+</div>
+
+
+
+
+
+
+ 
+ 
+ 
+
+  

@@ -1,0 +1,64 @@
+p {
+    cursor: pointer;
+  }
+  
+  .underline {
+    text-decoration: none;
+  }
+  
+  .clicked {
+    text-decoration: none;
+  }
+
+  .underlineModel {
+    text-decoration: none;
+  }
+  
+  .clickedModel {
+    text-decoration: none;
+  }
+
+  .underlineSoluciones {
+    text-decoration: none;
+  }
+  
+  .clickedSoluciones {
+    text-decoration: none;
+  }
+
+  .underlineBlog {
+    text-decoration: none;
+  }
+  
+  .clickedBlog {
+    text-decoration: none;
+  }
+
+.scroll-down{ 
+    transform: translate3d(0 ,-51px, 0);
+    transition: all 0.2s ease-out;       
+}
+.scroll-up{      
+    transform: none;  
+    transition: all 0.2s ease-out;    
+     
+}
+/* Estilos para el efecto de opacidad al pasar el mouse */
+.enlace-navegacion:hover {
+
+  opacity: 0.5; /* Puedes ajustar el valor según tus preferencias */
+  /*transition: opacity 0.3s ease;  Añade una transición suave */
+  transition: opacity 0.8s ease, background-color 0.3s ease; /* Añade transiciones suaves */
+
+}
+
+
+
+@media (max-width: 576px) { 
+    .scroll-down{ 
+        transform: translate3d(0 ,-75px, 0);
+        transition: all 0.2s ease-out;       
+    }
+  
+  }
+

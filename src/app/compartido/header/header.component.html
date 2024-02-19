@@ -1,0 +1,48 @@
+<!-- Inicio  header  -->
+ <!--se muestra o se oculta segun la pagina-->
+<header class="sticky-top" style="background-color: black;">  
+ 
+  <div class="container">
+        <div class="row row_header align-items-center justify-content-between">
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 ike_compensar row">
+            <div class="row">
+              <div class="col-12 ">
+                <a [routerLink]="['/inicio']" routerLinkActive="activo"><img src="assets/imagenes/encabezados/ikeCompensar.svg" alt="Ike" style="width: 70%;" ></a>
+              </div>              
+            </div>
+          </div>
+          <div class="col-12  col-sm-4 col-md-6 col-lg-9 navegacion">
+          <nav class="navbar navbar-expand-lg " style="background-color: black;">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars" style="color: white;" aria-hidden="true"></i><i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" >
+      
+                <li class="nav-item active enlace-navegacion" (mouseenter)="toggleUnderline()" (click)="toggleUnderline()" (click)="keepUnderline()">
+                  <a  routerLinkActive="activo shadow-none" style="background-color: black; color: white; box-shadow: none; border: none;"  class="btn" [routerLink]="['/nosotros']" data-toggle="collapse" data-target=".navbar-collapse.show"><p [ngClass]="{'underline': !isUnderlined, 'clicked': isUnderlined}">Nosotros</p> </a>
+
+                </li>
+                
+                <li class="nav-item active active enlace-navegacion" (mouseenter)="toggleUnderlineModel()"   (click)="toggleUnderlineModel()">
+                  <a  routerLinkActive="activo shadow-none" style="background-color: black; color: white; box-shadow: none; border: none;"  class="btn" [routerLink]="['/modelos']" data-toggle="collapse" data-target=".navbar-collapse.show"><p [ngClass]="{'underlineModel': !isUnderlinedModel, 'clickedModel': isUnderlinedModel}">Modelos</p></a>
+                </li>
+              
+                <li class="nav-item active active enlace-navegacion" (mouseenter)="toggleUnderlineSoluciones()" (click)="toggleUnderlineSoluciones()">
+                  <a  routerLinkActive="activo shadow-none" style="background-color: black; color: white; box-shadow: none; border: none;"  class="btn" [routerLink]="['/soluciones']" data-toggle="collapse" data-target=".navbar-collapse.show"><p [ngClass]="{'underlineSoluciones': !isUnderlinedSoluciones, 'clickedSoluciones': isUnderlinedSoluciones}">Soluciones</p></a>
+                </li>
+
+                <li class="nav-item active active enlace-navegacion" (mouseenter)="toggleUnderlineBlog()" (click)="toggleUnderlineBlog()">
+                  <a  routerLinkActive="activo shadow-none" style="background-color: black; color: white; box-shadow: none; border: none;"  class="btn" [routerLink]="['/blog']" data-toggle="collapse" data-target=".navbar-collapse.show"><p [ngClass]="{'underlineBlog': !isUnderlinedBlog, 'clickedBlog': isUnderlinedBlog}">Blog</p></a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ 
+

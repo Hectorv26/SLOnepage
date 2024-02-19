@@ -1,0 +1,26 @@
+[
+    {
+        "id":11,
+        "imgD": "Mascotas-4.png",
+        "imgR": "Mascotas-4-mobile.png",
+        "activo":true
+    },
+    {
+        "id":12,
+        "imgD": "Mascotas-3.png",
+        "imgR": "Mascotas-3-mobile.png",
+        "activo":false
+    },
+    {
+        "id":13,
+        "imgD": "Familias-1.png",
+        "imgR": "Familias-1-mobile.png",
+        "activo":false
+    },
+    {
+        "id":14,
+        "imgD": "Familias-2.png",
+        "imgR": "Familias-2-mobile.png",
+        "activo":false
+    }
+]

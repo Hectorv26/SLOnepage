@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 472 429">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: BebasNeueBold, 'Bebas Neue';
+        font-size: 48px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_4);
+        filter: url(#drop-shadow-1);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: Transducer-Regular, Transducer;
+        font-size: 20px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="236.67" y1="246.99" x2="505.61" y2="1486.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e38520"/>
+      <stop offset=".03" stop-color="#e27d23"/>
+      <stop offset=".23" stop-color="#e05932"/>
+      <stop offset=".42" stop-color="#de3d3d"/>
+      <stop offset=".61" stop-color="#dd2946"/>
+      <stop offset=".81" stop-color="#dc1d4b"/>
+      <stop offset="1" stop-color="#dc1a4d"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood flood-color="#5e5e5e" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <path class="cls-4" d="m241.76,410.29l211.77-211.77s0,0,0,0c-16.4-16.4-33.58-31.76-51.5-46.08-43.79-35-92-63.71-143.97-85.69C182.2,34.65,101.66,18.38,18.65,18.38v271.81c89.2,10.5,167.99,54.96,223.11,120.1Z"/>
+      <g>
+        <text class="cls-3" transform="translate(48.13 152.5)"><tspan x="0" y="0">Conexión </tspan></text>
+        <text class="cls-1" transform="translate(48.13 152.5)"><tspan x="0" y="0">Conexión </tspan></text>
+      </g>
+      <text class="cls-2" transform="translate(48.13 201.45)"><tspan x="0" y="0">Acti</tspan><tspan class="cls-5" x="40.68" y="0">v</tspan><tspan x="52.04" y="0">amos la relación entre </tspan><tspan x="0" y="23" xml:space="preserve">organización y entorno  a </tspan><tspan x="0" y="46">partir de las moti</tspan><tspan class="cls-5" x="183.19" y="46">v</tspan><tspan x="194.55" y="46">acione</tspan><tspan class="cls-5" x="264.78" y="46">s</tspan><tspan x="276.47" y="46">.</tspan></text>
+    </g>
+  </g>
+</svg>

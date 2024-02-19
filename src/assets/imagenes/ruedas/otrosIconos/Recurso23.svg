@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 352 386">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: BebasNeueBold, 'Bebas Neue';
+        font-size: 48px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_4);
+        filter: url(#drop-shadow-1);
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="85.91" y1="-307.26" x2="301.79" y2="687.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e38520"/>
+      <stop offset=".03" stop-color="#e27d23"/>
+      <stop offset=".23" stop-color="#e05932"/>
+      <stop offset=".42" stop-color="#de3d3d"/>
+      <stop offset=".61" stop-color="#dd2946"/>
+      <stop offset=".81" stop-color="#dc1d4b"/>
+      <stop offset="1" stop-color="#dc1a4d"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood flood-color="#5e5e5e" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <path class="cls-4" d="m84.28,18.38c0,68.26-24.67,130.75-65.56,179.08l169.99,170c45.32-45.32,80.91-98.11,105.77-156.9,19.35-45.75,31.53-93.63,36.4-142.87,1.61-16.29,2.42-32.73,2.42-49.29h0s-249.02,0-249.02,0Z"/>
+      <g>
+        <text class="cls-3" transform="translate(94.42 179.88)"><tspan x="0" y="0">Inn</tspan><tspan class="cls-5" x="50.11" y="0">o</tspan><tspan class="cls-1" x="69.07" y="0">v</tspan><tspan class="cls-5" x="87.17" y="0">a</tspan><tspan x="106.65" y="0">ción </tspan></text>
+        <text class="cls-2" transform="translate(94.42 179.88)"><tspan x="0" y="0">Inn</tspan><tspan class="cls-5" x="50.11" y="0">o</tspan><tspan class="cls-1" x="69.07" y="0">v</tspan><tspan class="cls-5" x="87.17" y="0">a</tspan><tspan x="106.65" y="0">ción </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

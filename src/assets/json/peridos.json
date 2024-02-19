@@ -1,0 +1,15 @@
+[     
+    {
+      "id": 3,
+      "nombre": "Oferta Anual"
+    },
+    
+    {
+      "id": 2,
+      "nombre": "Mensual"
+    },
+    {
+      "id": 1,
+      "nombre": "Anual"
+    }
+]

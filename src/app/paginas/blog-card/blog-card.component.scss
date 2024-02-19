@@ -1,0 +1,729 @@
+.ocultar {
+  display: none; /* Estilo CSS para ocultar el div */
+}
+
+
+
+
+.redes-sociales li {
+  margin: 5px; /* Espacio entre los iconos */
+}
+
+.redes-sociales img {
+  width: 40px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  height: 40px;
+}
+
+
+
+.animate-text {
+  opacity: 0; /* Inicialmente invisible */
+  animation: fadeIn 5s forwards; /* Animación de fade-in */
+}
+
+
+.delay-1 {
+  animation-delay: 0s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 2s;
+}
+
+.delay-4 {
+  animation-delay: 3s;
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+
+ 
+ .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgb(213, 209, 209);
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: gray;
+}
+ 
+ 
+ .video-container {
+            text-align: center;
+            background-color: black;
+            position: relative;
+        }
+
+        video {
+          width: 70%;
+          display: inline-block;
+          border: none; /* Estilo para eliminar el borde */
+      }
+
+      .texto-superpuesto {
+        position: absolute;
+        top: 30%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 5px;
+        margin-top: 30px;
+        font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+        z-index: 1;
+        background-color: transparent;
+        text-align: left;
+    }
+
+    .texto-superpuestoTituloBanner {
+      position: absolute;
+      width: 450px;
+      top: 350px;
+      left: 42%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 5px;
+      font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+      z-index: 1;
+      background-color: transparent;
+      text-align: left;
+  }
+
+  .texto-superpuestoAliados {
+    position: absolute;
+    width: 135px;
+    margin-top: -15px;
+    margin-left: 940px;
+
+}
+
+    .texto-superpuestocard {
+      position: absolute;
+      top: 20%;
+      left: 42%;
+      width: 450px;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: gray;
+      padding: 5px;
+      margin-top: 30px;
+      font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+      z-index: 1;
+      background-color: transparent;
+      text-align: left;
+  }
+
+    .texto-superpuesto2 {
+      position: absolute;
+      top: 10%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: black;
+      padding: 5px;
+      margin-top: 30px;
+      margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+      font-size: 40px; /* Utilizamos un porcentaje para el tamaño de fuente */
+      z-index: 1;
+      background-color: transparent;
+      text-align: left;
+  }
+
+  .texto-superpuesto3 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+    font-size: 40px; /* Utilizamos un porcentaje para el tamaño de fuente */
+    z-index: 1;
+    background-color: transparent;
+    text-align: left;
+}
+
+    .texto-colombia {
+      position: absolute;
+      top: 25%;
+      left: 59.5%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: black;
+      
+      margin-top: 30px;
+      margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+      font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+      z-index: 1;
+      background-color: transparent;
+      text-align: center;
+  }
+
+  .texto-ecuador {
+    position: absolute;
+    top: 32%;
+    left: 59.5%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    
+    margin-top: 30px;
+    margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+    font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+    z-index: 1;
+    background-color: transparent;
+    text-align: left;
+}
+
+.texto-honduras {
+  position: absolute;
+  top: 15%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  
+  margin-top: 30px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-salvador {
+  position: absolute;
+  top: 18%;
+  left: 57.2%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  
+  margin-top: 10px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+.texto-mexico {
+  position: absolute;
+  top: 5%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  
+  margin-top: 30px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+
+    .mapa-container {
+      text-align: center;
+      background-color: white;
+      position: relative;
+      
+  }
+
+  .custom-button {
+    background: linear-gradient(to right, #c01f56, #54337b);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  
+  .custom-button3 {
+    background: linear-gradient(to right, #c01f56, #54337b);
+  }
+
+  .miparrafo {
+    background: -webkit-linear-gradient(left, #de1a4d, #4400ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #de1a4d, #4400ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #de1a4d, #4400ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #de1a4d, #4400ff); /* Standard syntax */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    
+  }
+
+  .superpuestoejemplo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fondoGris {
+  width: 500px; /* Ajusta el ancho según sea necesario */
+    height: 300px; 
+  //background-image: url('../assets/imagenes/slides/f_banner_1_sm.jpg'); /* Ruta de tu imagen */
+  color: white; /* Ajusta el color del texto para que sea legible sobre la imagen */
+  text-align: center; /* Ajusta la alineación del texto */
+  padding: 20px;
+}
+
+.tarjeta {
+
+
+  position: relative;
+  clip-path: polygon(0% 15%, 0 0, 15% 0%, 49% 0, 49% 31%, 100% 31%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+  border-radius: 45px; /* Ajusta el valor según sea necesario */
+   
+ 
+}
+
+
+
+.poligono {
+  width: 200px;
+  height: 150px;
+  background-color: #f0f0f0;
+  position: relative;
+  clip-path: polygon(0% 15%, 0 0, 15% 0%, 49% 0, 49% 31%, 100% 31%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+  overflow: hidden;
+}
+
+.poligono::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px; /* Ancho del borde */
+  height: 20px; /* Altura del borde */
+  background-color: #ff0000; /* Color del borde */
+  z-index: 1;
+}
+
+
+
+  .custom-button2 {
+    background: linear-gradient(to right, #3AC17E, #2DD596);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+  }
+
+  .custom-button:hover {
+    background: linear-gradient(to right, #54337b, #c01f56);
+  }
+
+
+  .consultora{
+    font-size: 28px;
+  }
+
+  .consultoraH{
+    font-size: 35px;
+  }
+
+
+  .cartas {
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    -webkit-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    -moz-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    position: relative;
+    
+  }
+
+  .cartasComentarios {
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-bottom-left-radius: 50px; /* Bordes redondeados */
+    border-top-right-radius: 50px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    -webkit-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    -moz-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+    position: relative;
+    
+  }
+
+  /* Estilos para el logotipo */
+  .logo {
+    position: absolute;
+    top: 10px; /* Posición superior en píxeles */
+    right: 10px; /* Posición derecha en píxeles */
+    width: 50px; /* Ancho del logotipo */
+  }
+
+  .logoinvisible{
+    width: 115%;
+    margin-left: -50px;
+  }
+
+  .custom-card {
+    margin: 50px; /* Margen alrededor de las tarjetas */
+}
+
+.custom-card .card-body {
+    padding: 10px; /* Espacio interno en las tarjetas */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+
+    .texto2{
+      font-size: 25px;
+      font-family: TransducerRegular;
+    }
+
+
+
+    @media only screen and (max-width: 1480px) {
+      .texto-superpuestoAliados {
+        position: absolute;
+        width: 135px;
+        margin-top: -15px;
+        margin-left: 667px;
+    
+    }
+    }
+    
+  
+    @media only screen and (max-width: 1000px) {
+    
+    }
+
+
+    .video-container2 {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* Ajusta la altura según tus necesidades */
+      overflow: hidden;
+    }
+
+    /* Estilos para el video */
+    .video2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* Coloca el video detrás de otros elementos */
+    }
+
+
+ 
+  
+  
+    @media only screen and (max-width: 750px) {
+
+      .texto-superpuesto {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 5px;
+        margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+        font-size: 20px; /* Utilizamos un porcentaje para el tamaño de fuente */
+        z-index: 1;
+        background-color: transparent;
+        text-align: left;
+    }
+
+    .texto2{
+      font-size: 12px;
+    }
+
+    .logoinvisible{
+      width: 60%;
+      margin-top: 17px;
+      margin-left: -20px;
+    }
+  
+    }
+
+
+    .mx-auto{
+      width: 80px;
+      height: 55px;
+    }
+
+   
+.btn-secondary{
+  background-color: gray;
+}
+    
+
+
+.slide{background-color: #E54F16;}
+
+.bg-exitoso{
+  background-color: #28a74512;
+  border-radius: 18px;
+}
+.bg-error{
+  background-color: #dc354557;  
+  border-radius: 18px;
+ 
+}
+.bg-btn{
+background-color: transparent !important;
+}
+.cerrar{
+position: absolute;
+top: 0px;
+right: 0px;
+z-index: 999;
+padding-right: 12px;
+}
+.bg-pqr{
+ background-color:  linear-gradient(89.59deg,rgba(39,41,45,0) 29.38%,rgba(39,41,45,.68404) 97.05%,#27292d 99.57%);
+
+}
+#modal-free{
+  backdrop-filter: blur(5px);
+}
+.zomm{animation: crecer 3s infinite;
+}
+
+.pulse {  
+  animation: pulse 3s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+.desvanecimiento{ 
+  animation: desv 7s  ;  }
+.modal-form{
+  background: rgba(255, 255, 255, 0.247);
+  //opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95.6%;
+  height: 100%;
+  margin-left: 0.9em;
+  margin-right: 2em;
+  border-radius: 35px;
+  backdrop-filter: blur(2px);
+  z-index: 999;
+  display: flex;
+}
+.center{
+  position: absolute;
+  width: 100%;  
+  top: 50%;
+}
+.text-orange{
+color: #E54F16;
+}
+.texto-degrade{
+  background: linear-gradient(90deg,#e54f16,#6c2f18);
+    background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 2.7em;  
+
+}
+.img-arrow{
+  position: absolute;
+  bottom: 0px;
+}
+.img-left{
+  right: -50px;
+  z-index: 99;
+}
+.img-right{
+  left:-50px;
+}
+
+
+@keyframes desv{
+  0% {
+    
+      opacity: 1;
+  } 
+  70%{
+    opacity: 1;
+  } 
+  100%{
+    opacity: 0;
+  }
+
+}
+@keyframes crecer{
+  0% {
+    
+      transform: scale(1);
+  }
+  50%{
+      transform: scale(1.3);
+  }
+ 
+  100%{
+      transform: scale(1);
+  }
+
+}
+//responsive
+
+@media (min-width: 1500px){
+  .slider-size{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bg-slider{
+    background-color:#E54F16 ;
+    
+  }
+
+}
+
+@media (max-width: 576px) {
+ 
+  .slide{    
+    background-position: center top !important;
+  } 
+ 
+  .modal-form{
+    width: 91%;
+  }  
+  .titulo{
+    font-size: 1.2em;
+  } 
+  .titulosini{
+    font-size: 1.7em !important;
+  }
+  .linea_azul{
+    display: none !important;
+  }
+  .subtitleini{
+    font-size: 1.4em;
+  }
+  #accordionIKE .interrogacion{
+    padding-left: 0px;
+    padding-top: 6px;
+  }
+  .ocultarbr{
+    display: none;
+  }
+}
+
+//hace efecto de pulso
+@keyframes pulse {
+  0% {
+    
+    box-shadow: 0 0 0 0 rgba(56, 54, 46, 0.4);
+  }
+  50% {
+      
+      box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+  }
+  100% {
+      
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+.loading-text {	
+height: 100px;
+h2 {
+  display: inline-block;		
+  color: #E54F16;    
+  @for $i from 0 through 10 {
+    &:nth-child(#{$i + 1}) {
+      filter: blur(0px);
+      animation: blur-text .5s (#{$i/5})+s infinite linear alternate;
+    }
+  }
+}
+}
+
+@keyframes blur-text {
+0% {filter: blur(0px);
+}
+100% {filter: blur(2px);
+  color:#e04507}
+}
+
+////////////
+
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+.scrolled.slide-left {
+  animation: slide-in-left 1s ease-in-out both;
+}
+
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 403 444">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: BebasNeueBold, 'Bebas Neue';
+        font-size: 48px;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_4);
+        filter: url(#drop-shadow-1);
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-family: Transducer-Regular, Transducer;
+        font-size: 20px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="95.96" y1="-364.85" x2="348.75" y2="799.97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e38520"/>
+      <stop offset=".03" stop-color="#e27d23"/>
+      <stop offset=".23" stop-color="#e05932"/>
+      <stop offset=".42" stop-color="#de3d3d"/>
+      <stop offset=".61" stop-color="#dd2946"/>
+      <stop offset=".81" stop-color="#dc1d4b"/>
+      <stop offset="1" stop-color="#dc1a4d"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood flood-color="#5e5e5e" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <path class="cls-5" d="m83.72,18.69c1.02,70.38-5.09,130.5-65.03,208.51l197.93,197.93c52.77-52.77,94.2-114.23,123.16-182.69,22.53-53.27,36.72-109.02,42.38-166.35,1.88-18.97,2.81-38.11,2.81-57.39h0s-301.25,0-301.25,0Z"/>
+      <g>
+        <text class="cls-4" transform="translate(124.97 118.88)"><tspan x="0" y="0">Inn</tspan><tspan class="cls-6" x="50.11" y="0">o</tspan><tspan class="cls-1" x="69.07" y="0">v</tspan><tspan class="cls-6" x="87.17" y="0">a</tspan><tspan x="106.65" y="0">ción </tspan></text>
+        <text class="cls-2" transform="translate(124.97 118.88)"><tspan x="0" y="0">Inn</tspan><tspan class="cls-6" x="50.11" y="0">o</tspan><tspan class="cls-1" x="69.07" y="0">v</tspan><tspan class="cls-6" x="87.17" y="0">a</tspan><tspan x="106.65" y="0">ción </tspan></text>
+      </g>
+      <text class="cls-3" transform="translate(85.3 161.43)"><tspan x="0" y="0">Creamos </tspan><tspan class="cls-7" x="103.26" y="0">e</tspan><tspan x="115.24" y="0">xperiencias y </tspan><tspan x="0" y="23">procesos que permitan </tspan><tspan x="0" y="46">transformar mindsets </tspan><tspan x="0" y="69">a partir de la ruptura </tspan><tspan x="0" y="92">de paradigmas en los </tspan><tspan x="0" y="115">mercado</tspan><tspan class="cls-8" x="97.04" y="115">s</tspan><tspan x="108.74" y="115">.</tspan></text>
+    </g>
+  </g>
+</svg>
