@@ -288,6 +288,60 @@ export class InicioComponent implements OnInit {
       animation300.setSpeed(0.3);
     }
 
+    const animationContainer111 = document.getElementById('reloj');
+  
+    if (animationContainer111) {
+      const animation1 = lottie.loadAnimation({ container: animationContainer111, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/reloj.json' });
+      animation1.addEventListener('DOMLoaded', () => {
+      });
+
+      animation1.setSpeed(0.7);
+    }
+
+    const animationContainer222 = document.getElementById('posit');
+  
+    if (animationContainer222) {
+      const animation2 = lottie.loadAnimation({ container: animationContainer222, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/posit.json' });
+      animation2.addEventListener('DOMLoaded', () => {
+      });
+
+      animation2.setSpeed(0.3);
+    }
+
+    const animationContainer333 = document.getElementById('robot');
+
+    if (animationContainer333) {
+      const animation3 = lottie.loadAnimation({ container: animationContainer333, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/robot.json' });
+      animation3.addEventListener('DOMLoaded', () => {
+      });
+
+      animation3.setSpeed(0.3);
+    }
+
+    const animationCerebro2 = document.getElementById('cerebro2');
+
+    if (animationCerebro2) {
+      const animation3 = lottie.loadAnimation({ container: animationCerebro2, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/cerebro2.json' });
+      animation3.addEventListener('DOMLoaded', () => {
+      });
+
+      animation3.setSpeed(0.4);
+    }
+
+
+    const animationPluma = document.getElementById('pluma');
+
+    if (animationPluma) {
+      const animation3 = lottie.loadAnimation({ container: animationPluma, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/pluma.json' });
+      animation3.addEventListener('DOMLoaded', () => {
+      });
+
+      animation3.setSpeed(0.4);
+    }
+
+
+
+
  
 
   }
