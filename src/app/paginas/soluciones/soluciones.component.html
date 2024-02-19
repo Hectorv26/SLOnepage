@@ -338,66 +338,41 @@
         <div class="row" >
             <div class="col-md-4 subtitleMain" style="background-color: transparent;">
                 <div class="border-0" style="background-color: transparent; margin-left: 170px; margin-top: 50px;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
-             
                         <strong><p class="consultora" style="line-height: 1; "><span class="consultoraH">TRABAJAMOS</span>
                         <br>
-                            <span class="consultoraH" style="font-size: 30px; padding-left: -25px;">DE LA MANO CON</span>
+                        <span class="consultoraH" style="font-size: 30px; padding-left: -25px;">DE LA MANO CON</span>
                         </p>
-                     
                         </strong>
-
                         <p id="lineaTexto3" style="width: 100%; margin-left: -19px; margin-top: -138px;"> </p>
-
-
-                 
-
                     <button (click)="scrollToSection()" class="btn custom-button superpuestoejemplo" style="width: 150px; height: 35px; margin-left: 47.5%; margin-top: 46%; font-family: TransducerRegular; padding-top: 5px;" >Contáctanos</button>
-                </div>
-               
+                    <br>
+                  </div>
             </div>
             
+            <!-- Div con el boton azul de color bonito -->
             <div class="col-md-4">
 
               <div *ngIf="botonEmpresasRojo" (click)="ocultarInfoEmpresas()" class="card plan  cartas " style="cursor: pointer; padding-top: 20px; padding-bottom: 20px; margin-left: 100px; margin-top: 50px;" id="card_plan_1">
                 <div class="">
                     <span style="padding-left: 10px; padding-top: 10px; font-family: TransducerRegular; font-size: 15px;" class="miparrafo">Grandes Empresas</span>
                 </div>
-
                 <img class="logo"  style="width: 25px; padding-top: 7px; padding-right: 5px;" src="assets/imagenes/iconos/flechaazul.svg" alt="Logotipo">
-            </div>
-
-
-            <div *ngIf="espacioRojo" style="padding-top: 20px; padding-bottom: 20px; margin-left: 100px; margin-top: 53px;">
-              <div class="" style="background-color: transparent;">
-                <span style="padding-left: 10px; padding-top: 10px;"></span>
-            </div>
-            </div>
-
-            <div (click)="ocultarInfoEmprendimientos()" *ngIf="botonEmprendimientosRojo" [style.margin-top]="marginTopDiv" class="card plan  cartas " style="cursor: pointer; padding-top: 20px; padding-bottom: 20px; margin-left: 100px;" id="card_plan_1">
-              <div class="">
-                  <span style="padding-left: 10px; padding-top: 10px; font-family: TransducerRegular; font-size: 15px;" class="miparrafo">Emprendimientos</span>
               </div>
-              
-              <img class="logo" style="width: 25px; padding-top: 7px; padding-right: 5px;" src="assets/imagenes/iconos/flechaazul.svg" alt="Logotipo">
-          </div>
-
 
             </div>
 
+
+            <!--Div para cuando se oprime y muestra el boton -->
             <div class="col-md-4">
                 
               <div (click)="mostrarInfoEmpresas()" *ngIf="botonEmpresasBlanco" class="card plan cartas custom-button" style="cursor: pointer; padding-top: 20px; padding-bottom: 20px; margin-top: 50px; margin-bottom: 50px; margin-right: 100px;" id="card_plan_1">
                 <div class="">
                     <span style="padding-left: 10px; padding-top: 10px; font-family: TransducerRegular; font-size: 15px;">Grandes Empresas</span>
                 </div>
-                
-                
+                <img class="logo" style="width: 30px; padding-top: 13px; padding-right: 5px; " src="assets/imagenes/iconos/flechaBlanca.svg" alt="Logotipo"> 
+              </div>
 
-                <img class="logo" style="width: 30px; padding-top: 13px; padding-right: 5px; " src="assets/imagenes/iconos/flechaBlanca.svg" alt="Logotipo">
-             
-            </div>
-
-            <div *ngIf="infoEmpresas" class="card plan cartas " style="padding-top: 10px; padding-bottom: 20px; margin-top: 50px; margin-bottom: 50px; margin-right: 100px;" id="card_plan_1">
+             <div *ngIf="infoEmpresas" class="card plan cartas " style="padding-top: 10px; padding-bottom: 20px; margin-top: 50px; margin-bottom: 50px; margin-right: 100px;" id="card_plan_1">
               
               <img  style="width: 23px; padding-left: 5px; padding-top: 15px;" src="assets/imagenes/iconos/bolazul.svg" alt="Logotipo">
               <p style="padding-left: 40px; margin-top: -17px; line-height: 1; font-size: 14px; padding-bottom: 10px;">Transformamos</p>
@@ -412,43 +387,10 @@
               <img  style="width: 23px; padding-left: 5px; padding-top: 15px;" src="assets/imagenes/iconos/bolazul.svg" alt="Logotipo">
               <p style="padding-left: 40px; margin-top: -17px; line-height: 1; font-size: 14px; padding-bottom: 10px;">Creamos futuro</p>
               <p style="padding-left: 40px; margin-top: -22px; line-height: 1;"><span style="font-size: 11px;">Nuevas posturas. <br>Nuevos caminos.</span></p>
-           
-              
-           
-          </div>
-
-            <div (click)="mostrarInfoEmprendimientos()" *ngIf="botonEmprendimientosBlanco" class="card plan cartas custom-button" style="cursor: pointer;padding-top: 20px; padding-bottom: 20px; margin-top: -20px; margin-bottom: 50px; margin-right: 100px;" id="card_plan_1">
-              <div class="">
-                  <span style="padding-left: 10px; padding-top: 10px; font-family: TransducerRegular; font-size: 15px;">Emprendimientos</span>
               </div>
-
-              <img class="logo" style="width: 30px; padding-top: 13px; padding-right: 5px;" src="assets/imagenes/iconos/flechaBlanca.svg" alt="Logotipo">
-           
-              
-
-          </div>
-
-          
-
-        <div *ngIf="infoEmprendimientos" class="card plan cartas " style="padding-top: 10px; padding-bottom: 20px; margin-top: -20px; margin-bottom: 50px; margin-right: 100px;" id="card_plan_1">
-      
-        <img  style="width: 23px; padding-left: 5px; padding-top: 15px;" src="assets/imagenes/iconos/bolazul.svg" alt="Logotipo">
-        <p style="padding-left: 40px; margin-top: -17px; line-height: 1; font-size: 14px; padding-bottom: 10px;">Acompañamos</p>
-        <p style="padding-left: 40px; margin-top: -22px; line-height: 1;"><span style="font-size: 11px;">Al emprendedor a enteder <br> la escencia de su proyecto y <br> su alineación personal con él. </span></p>
-
- 
-        <img  style="width: 23px; padding-left: 5px; padding-top: 15px;" src="assets/imagenes/iconos/bolazul.svg" alt="Logotipo">
-        <p style="padding-left: 40px; margin-top: -17px; line-height: 1; font-size: 14px; padding-bottom: 10px;">Detonamos</p>
-        <p style="padding-left: 40px; margin-top: -22px; line-height: 1;"><span style="font-size: 11px;">Nuevas decisiones dentro del<br> emprendimiento existente,<br> realizando exploraciones y <br>reflexiones para optimizar <br>sus resultados </span></p>
-     
- 
-        <img  style="width: 23px; padding-left: 5px; padding-top: 15px;" src="assets/imagenes/iconos/bolazul.svg" alt="Logotipo">
-        <p style="padding-left: 40px; margin-top: -17px; line-height: 1; font-size: 14px; padding-bottom: 10px;">Expandimos</p>
-        <p style="padding-left: 40px; margin-top: -22px; line-height: 1;"><span style="font-size: 11px;">El impacto de un empresario <br>u organización consolidados <br>dentro de la sociedad y su <br>mercado, o nuevos mercados <br> a explorar.</span></p>
-     
-      </div>
-
             </div>
+         
+        <!-- este ultimo div cierra el Row-->    
         </div>
 
         
