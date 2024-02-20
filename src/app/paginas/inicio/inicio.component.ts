@@ -263,20 +263,39 @@ export class InicioComponent implements OnInit {
       const animation3 = lottie.loadAnimation({ container: animationContainer3, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/flecha.json' });
       animation3.addEventListener('DOMLoaded', () => {
       });
-    }
+    }    
 
-    
-
-    const animationContainer22 = document.getElementById('titulobanner');
+    const animationContainer22 = document.getElementById('invisub');
   
     if (animationContainer22) {
-      const animation22 = lottie.loadAnimation({ container: animationContainer22, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/titulobanner.json' });
+      const animation22 = lottie.loadAnimation({ container: animationContainer22, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/invisub.json' });
       animation22.addEventListener('DOMLoaded', () => {
       });
 
       
-    animation22.setSpeed(0.2);
+    animation22.setSpeed(0.8);
     }
+
+    const animationContainer2222 = document.getElementById('tx');
+  
+    if (animationContainer2222) {
+      
+      timer(5400).subscribe(() => {
+
+      const animation63 = lottie.loadAnimation({ container: animationContainer2222, renderer: 'svg', loop: false, autoplay: true, path: 'assets/json/tx.json' });
+ 
+    animation63.addEventListener('DOMLoaded', () => {
+    });
+
+    animation63.setSpeed(0.6);
+
+    });
+    
+
+
+    }
+
+
 
     const animationContainer3000 = document.getElementById('creativos');
 

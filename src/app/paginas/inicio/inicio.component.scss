@@ -52,7 +52,7 @@
 }
 
 .delay-4 {
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 
 .delay-5 {
@@ -61,6 +61,9 @@
 
 .delay-6 {
   animation-delay: 5s;
+}
+.delay-7 {
+  animation-delay: 6s;
 }
 
 
@@ -138,13 +141,26 @@
       top: 350px;
       left: 42%;
       transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.5);
+      background: rgb(255, 255, 255);
       padding: 5px;
       font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
       z-index: 1;
       background-color: transparent;
       text-align: left;
   }
+  .texto-superpuestoTituloBanner2 {
+    position: absolute;
+    width: 485px;
+    top: 710px;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 80px; /* Utilizamos un porcentaje para el tamaño de fuente */
+    z-index: 1;
+    background-color: transparent;
+    text-align: left;
+}
 
   .texto-superpuestoAliados {
     position: absolute;
@@ -463,8 +479,8 @@
 }
 
     .texto2{
-      font-size: 20px;
-      font-family: TransducerRegular;
+      font-size: 25px;
+      font-family: 'Century Gothic';
     }
 
 
