@@ -104,7 +104,7 @@
 }
 
 .carousel-indicators .active {
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
 }
  
  
@@ -306,7 +306,7 @@
 
     .mapa-container {
       text-align: center;
-      background-color: white;
+      background-color: #F9F9F9;
       position: relative;
       
   }
@@ -337,6 +337,8 @@
     background: linear-gradient(to right, #e72c4b, #e72c4b);
     border: none;
     color: white;
+    border-radius: 20px; /* Ajusta el valor según lo redondo que desees el botón */
+
 
   }
 
@@ -367,7 +369,7 @@
   width: 500px; /* Ajusta el ancho según sea necesario */
     height: 300px; 
   //background-image: url('../assets/imagenes/slides/f_banner_1_sm.jpg'); /* Ruta de tu imagen */
-  color: rgb(0, 0, 0); /* Ajusta el color del texto para que sea legible sobre la imagen */
+  color: rgb(255, 255, 255); /* Ajusta el color del texto para que sea legible sobre la imagen */
   text-align: center; /* Ajusta la alineación del texto */
   padding: 20px;
 }
@@ -561,7 +563,7 @@
 
    
 .btn-secondary{
-  background-color: gray;
+  background-color: rgb(255, 253, 253);
 }
     
 

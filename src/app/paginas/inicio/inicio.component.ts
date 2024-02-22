@@ -378,7 +378,7 @@ export class InicioComponent implements OnInit {
         // Obtener la posición actual del scroll en el eje Y
         const scrollYPos = window.scrollY || window.pageYOffset;
 
-        if (scrollYPos < 550){
+        if (scrollYPos < 1050){
           if (this.banner) {
             this.banner.nativeElement.style.display = 'none';
           }
@@ -388,18 +388,18 @@ export class InicioComponent implements OnInit {
           }
         }
 
-        if(scrollYPos > 50 && this.banderaLinea1 == true){
+        if(scrollYPos > 550 && this.banderaLinea1 == true){
 
           this.banderaLinea1 = false;
 
-          const animationContainer5 = document.getElementById('lineaTexto');
+          const animationContainer5 = document.getElementById('somos');
 
           if (animationContainer5) {
-            const animation5 = lottie.loadAnimation({ container: animationContainer5, renderer: 'svg', loop: false, autoplay: true, path: 'assets/json/lineaTexto.json' });
+            const animation5 = lottie.loadAnimation({ container: animationContainer5, renderer: 'svg', loop: false, autoplay: true, path: 'assets/json/somos.json' });
             animation5.addEventListener('DOMLoaded', () => {
             });
       
-            animation5.setSpeed(0.2);
+            animation5.setSpeed(0.1);
           }
 
           const animationContainer6 = document.getElementById('lineaTexto2');
