@@ -310,18 +310,48 @@ ul {
   }
 
   .custom-button {
-    background: linear-gradient(to right, #588990, #17488F);
+    background: linear-gradient(to right, #05353c, #17488F);
     border: none;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 1px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
+    width: 180px; /* Tamaño deseado en píxeles */
+    height: 60px; /* Tamaño deseado en píxeles */
+    margin-left: 190px;
+
   }
 
-  
+  .custom-button20 {
+    background: linear-gradient(to right, #05353c, #17488F);
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 180px; /* Tamaño deseado en píxeles */
+    height: 60px; /* Tamaño deseado en píxeles */
+    margin-left: 465px;
+  }
+
+  .custom-button200 {
+    background: linear-gradient(to right, #05353c, #17488F);
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 180px; /* Tamaño deseado en píxeles */
+    height: 60px; /* Tamaño deseado en píxeles */
+    margin-left: 760px;
+  }
+
   .custom-button3 {
     background: linear-gradient(to right, #588990, #17488F);
   }
@@ -412,19 +442,24 @@ ul {
   }
 
 
+
+  /* Aca se maneja la carta del boton que da info Antes de Oprimir*/
   .cartas {
-    border: 1px solid #ccc; /* Borde con color gris claro */
+
+    
+    border: 1px solid #c01b1b; /* Borde con color gris claro */
     border-radius: 10px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */
     -webkit-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
     -moz-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
     box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
     position: relative;
-    
+
   }
 
+
   .cartasComentarios {
-    border: 1px solid #ccc; /* Borde con color gris claro */
+    border: 1px solid #14b219; /* Borde con color gris claro */
     border-bottom-left-radius: 50px; /* Bordes redondeados */
     border-top-right-radius: 50px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */

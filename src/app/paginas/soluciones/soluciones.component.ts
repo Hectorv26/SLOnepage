@@ -202,7 +202,7 @@ export class SolucionesComponent implements OnInit {
     }
 
     if(this.botonEmprendimientosRojo){
-      this.marginTopDiv = '226.5px';
+      this.marginTopDiv = '25px';
     } else {
       this.marginTopDiv = '30px';
     }
@@ -222,9 +222,9 @@ export class SolucionesComponent implements OnInit {
     }
 
     if(this.botonEmprendimientosRojo){
-      this.marginTopDiv = '30px';
+      this.marginTopDiv = '10px';
     } else {
-      this.marginTopDiv = '226.5px';
+      this.marginTopDiv = '25px';
     }
   }
 

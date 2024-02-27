@@ -112,7 +112,10 @@
         <div class="row">
             <div class="col-md-12" style="background-color: #F9F9F9; text-transform: none;">
                 <div class="card custom-card border-0" style="background-color: #F9F9F9; text-align: center;"> <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+
+
                   <!-- ACA FONDO DE SOMOS-->
+                  <!-- SOMOS ID-->
                   <p id="somos" style="position: absolute; width: 70%; margin-left: 148px; margin-top: -26%; display: block; background-color: transparent;"> </p>
                 </div>
             </div>
@@ -121,7 +124,7 @@
         </div>
 
 
-        <!-- Segunda fila -->
+        <!-- Segunda fila ( Desde aca comienzan los divs de las cards ) -->
           <div class="row" style="margin-top: -60px;">
 
 
@@ -136,10 +139,13 @@
 
                       <!-- <img style="padding: auto;"  src="assets/imagenes/imaFichas/Magix.svg" alt="Invisible" > -->
                       <span class="miparrafo">Innovación, modelos </span> <br> y metodologíaaas
+                      
                        
                     </div>
                 </div>
+               <button class="btn btn-primary">Ver más</button>
             </div>
+            
 
 
             <div class="col-md-4">
@@ -227,213 +233,38 @@
     
  
     <!-- Carrusel-->
-    <div class="row" style="background-color: black;">
+    <div class="row" style="background-color: #4DB2B0; height: 45px;">
 
-      <div class="container"> <strong><p class="text-center" style="color: white; margin-top: 5px; font-family: BebasNeueBold;font-size: 25px;">  NUESTROS  <span style="font-size: 40px;">ALIADOS</span></p></strong></div>
-      <p id="lineaTexto5" class="texto-superpuestoAliados"> </p>
+      <div class="container"><strong>
+        <p class="texto" style="color: white; margin-top: 5px; font-family: Century Gothic ;font-size: 25px;">  INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR <span style="font-size: 25px;"> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span> <span style="font-size: 25px;"> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span> <span style="font-size: 25px;"> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span> <span style="font-size: 25px;"> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span> </p></strong>
+      </div>
 
     </div>
 
+    <style>
+      /* Aca es el SCSS para que se mueva el banner */
+      .texto {
+        animation: mover 25s linear infinite;
+        /* Aumenta el ancho del texto para evitar cortes */
+        width: 200%; /* Ajusta el ancho según el tamaño de tu banner */
+        white-space: nowrap; /* Evita saltos de línea */
+      }
+    
+      @keyframes mover {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
 
-    <div class="row" style="background-color: black;">
-      <div class="col-md-1"></div>
-        <div class="col-md-10">
-            <div id="logoCarousel" class="carousel slide" data-ride="carousel" style="background-color: black; margin-left: -10px; margin-bottom: 20px;" >
-                <div class="carousel-inner">
-                  <!-- Slide 1 -->
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <!-- Logo 1 -->
-                      <div class="col-md-3">
-                        <img src="assets/imagenes/iconos/cocacola.png" style="width: 100px;" class="d-block mx-auto" alt="Logo 11">
-                      </div>
-                      <!-- Logo 2 -->
-                      <div class="col-md-3">
-                        <img src="assets/imagenes/iconos/belcorp.png"  class="d-block mx-auto" alt="Logo 2">
-                      </div>
-                      <!-- Logo 3 -->
-                      <div class="col-md-3">
-                        <img src="assets/imagenes/iconos/abinbev.png" class="d-block mx-auto" style="height: 20px; margin-top: 20px; width: 110px;" alt="Logo 3">
-                      </div>
-                      <!-- Logo 4 -->
-                      <div class="col-md-3">
-                        <img src="assets/imagenes/iconos/totalmenteconfiable.png" style="width: 70px; height: 60px;" class="d-block mx-auto" alt="Logo 4">
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/colombina.png" style="width: 115px; height: 50px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/pepsico.png" style="width: 125px; height: 30px;" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/scotiabank.png" style="width: 165px; height: 25px; margin-top: 10px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/colpensiones.png" style="width: 132px; height: 40px; margin-bottom: 20px;" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/unilever.png" style="width: 55px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/postobon.png" style="width: 100px; height: 40px" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/kellogs.png" style="width: 120px; height: 45px; margin-top: 5px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/diageo.png" style="width: 100px; height: 23px;margin-top: 14px;" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/derco.png" style="width: 50px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/trece.png" style="width: 100px; height: 35px;" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/afidro.png" style="width: 160px; height: 25px; margin-top: 10px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/colsubsidio.png" style="width: 145px; height: 30px; margin-top: 7px;" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/cruzverde.png" style="width: 65px; height: 60px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/bancocajasocial.png" style="width: 170px; height: 50px;" 
-                            class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/alianzateam.png" style="width: 120px; height: 45px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/alpina.png" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/semana.png" style="height: 25px; width: 100px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/alqueria.png" style="height: 44px; width: 120px; margin-bottom: 15px;" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/colpatria.png" style="height: 25px; width: 130px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/singenta.png" style="height: 26px; width: 105px;" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/sanofi.png" style="height: 30px; width: 140px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/colgate.png" style="height: 60px; width: 85px;" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/groupon.png" style="height: 30px; width: 150px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                          <!-- Logo 4 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/bristol.png" style="height: 60px; width: 130px;" class="d-block mx-auto" alt="Logo 4">
-                          </div>
-                        </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="row">
-                          <!-- Logo 1 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/dupont.png" style="height: 30px; width: 100px;" class="d-block mx-auto" alt="Logo 11">
-                          </div>
-                          <!-- Logo 2 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/novo.png" style="height: 60px; width: 90px;" class="d-block mx-auto" alt="Logo 2">
-                          </div>
-                          <!-- Logo 3 -->
-                          <div class="col-md-3">
-                            <img src="assets/imagenes/iconos/danone.png" style="height: 30px; width: 100px;" class="d-block mx-auto" alt="Logo 3">
-                          </div>
-                         
-                        </div>
-                  </div>
-                  <!-- Agrega más slides según sea necesario -->
-                  
-                </div>
 
-                         <!-- Controles del carrusel -->
-                         <a  class="carousel-control-prev" style="margin-left: -60px;" href="#logoCarousel" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Anterior</span>
-                        </a>
-                        <a  class="carousel-control-next" style="margin-right: -60px;" href="#logoCarousel" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Siguiente</span>
-                        </a>
-          
-             
-              </div>     
-        </div>
-    </div>
-
+    
 
      
-      <!-- ESTE SERA EL CONTAINER INICIAR  MODELOS DEL LAND PAGE-->
+      <!-- ESTE SERA EL CONTAINER INICIAR (CABEZOTA) MODELOS DEL LAND PAGE-->
   <div class="Frase-container"  >
 
     
