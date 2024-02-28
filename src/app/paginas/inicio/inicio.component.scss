@@ -5,13 +5,17 @@
   top: 44%; /* Centra verticalmente el banner */
   right: 0; /* Coloca el banner en el lado derecho */
   transform: translateY(-50%);
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 2;
   background-color: #625e5e; /* Color de fondo gris para el banner */
 
+}
+
+.texto-centradoDA {
+  text-align: center;
 }
 
 .redes-sociales {
@@ -570,6 +574,17 @@
 
     .texto2{
       font-size: 12px;
+    }
+
+    .texto-superpuesto img {
+      order: -1;
+      margin-right: 10px;
+      margin-bottom: 100px;
+    }
+
+    .card-body.plan-card-body .logo {
+      width: 100%; /* Ajusta el ancho del span al 100% del contenedor */
+      height: auto; /* Para mantener la proporción de aspecto */
     }
 
     .logoinvisible{

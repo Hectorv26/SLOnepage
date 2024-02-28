@@ -307,10 +307,10 @@ export class InicioComponent implements OnInit {
       animation300.setSpeed(0.3);
     }
 
-    const animationContainer111 = document.getElementById('reloj');
+    const animationContainer111 = document.getElementById('perspicaces');
   
     if (animationContainer111) {
-      const animation1 = lottie.loadAnimation({ container: animationContainer111, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Iconosinicio/reloj.json' });
+      const animation1 = lottie.loadAnimation({ container: animationContainer111, renderer: 'svg', loop: true, autoplay: true, path: 'assets/json/Medio/perpi.json' });
       animation1.addEventListener('DOMLoaded', () => {
       });
 
