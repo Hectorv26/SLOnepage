@@ -5,7 +5,7 @@
   top: 44%; /* Centra verticalmente el banner */
   right: 0; /* Coloca el banner en el lado derecho */
   transform: translateY(-50%);
-  padding: 10px;
+  padding: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -502,12 +502,13 @@
   }
 
   .custom-card {
-    margin: 50px; /* Margen alrededor de las tarjetas */
+    margin: 20px; /* Margen alrededor de las tarjetas */
+    
 }
 
 .custom-card .card-body {
-    padding: 10px; /* Espacio interno en las tarjetas */
-    font-size: 14px; /* Tamaño de fuente más pequeño */
+    padding: 5px; /* Espacio interno en las tarjetas */
+    font-size: 1px; /* Tamaño de fuente más pequeño */
 }
 
     .texto2{
@@ -582,11 +583,7 @@
       margin-bottom: 100px;
     }
 
-    .card-body.plan-card-body .logo {
-      width: 100%; /* Ajusta el ancho del span al 100% del contenedor */
-      height: auto; /* Para mantener la proporción de aspecto */
-    }
-
+    
     .logoinvisible{
       width: 60%;
       margin-top: 17px;

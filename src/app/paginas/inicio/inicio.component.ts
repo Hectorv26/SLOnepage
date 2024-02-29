@@ -378,7 +378,7 @@ export class InicioComponent implements OnInit {
         // Obtener la posición actual del scroll en el eje Y
         const scrollYPos = window.scrollY || window.pageYOffset;
 
-        if (scrollYPos < 1050){
+        if (scrollYPos < 1040){
           if (this.banner) {
             this.banner.nativeElement.style.display = 'none';
           }
