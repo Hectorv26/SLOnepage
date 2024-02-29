@@ -47,6 +47,10 @@ export class InicioComponent implements OnInit {
 
   link: boolean = true;
   linkColor: boolean = false;
+
+  cartaPantalla: boolean = true;
+  cartaTuerca: boolean = true;
+  cartaCabeza: boolean = true;
   
 
   marginTopDiv: string = '30px';
@@ -126,6 +130,29 @@ export class InicioComponent implements OnInit {
     this.instagram = true;
     this.instagramColor = false;
   }
+
+  mostrarCabeza(){
+    this.cartaCabeza = !this.cartaCabeza;
+    this.cartaTuerca = true;
+    this.cartaPantalla = true;
+  }
+
+  mostrarTuerca(){
+    this.cartaTuerca = !this.cartaTuerca;
+    this.cartaCabeza = true;
+    this.cartaPantalla = true;
+  }
+
+  mostrarPantalla(){
+    this.cartaPantalla = !this.cartaPantalla;
+    this.cartaTuerca = true;
+    this.cartaCabeza = true;
+  }
+
+  bloquearScroll(){
+    document.body.style.overflowY = 'hidden';
+
+}
 
 
  
